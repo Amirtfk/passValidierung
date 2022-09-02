@@ -46,5 +46,22 @@ public class passVal {
         }
         return false;
     }
+
+
+    public static boolean isNotOnredList(String password) {
+        String[] redListPass = new String[5];
+        redListPass[0] = "Terror";
+        redListPass[1] = "Kill";
+        redListPass[2] = "Poverty";
+        redListPass[3] = "Lie";
+        redListPass[4] = "Racist";
+
+        for (int i = 0; i < redListPass.length; i++){
+            if (redListPass[i] == password){
+                return false;
+            }
+        }
+        return true;
+    }
 }
 

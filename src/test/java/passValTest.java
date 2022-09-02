@@ -75,4 +75,29 @@ public class passValTest {
         // THEN
         assertTrue(actual);
     }
+
+
+    @Test
+    void IsNotonRedLisTest(){
+
+        // GIVEN
+        String pass = "ABC";
+        // WHEN
+        boolean actual = passVal.isNotOnredList(pass);
+        // THEN
+        assertTrue(actual);
+    }
+
+    @Test
+    void IsonRedLisTest(){
+
+        // GIVEN
+        String pass = "Lie";
+        // WHEN
+        boolean actual = passVal.isNotOnredList(pass);
+        // THEN
+        assertFalse(actual);
+    }
+
+
 }

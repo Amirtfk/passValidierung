@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e35b9cd-763c-48c7-84cc-ab694dc60dad" name="Changes" comment="Add PassNumber">
+    <list default="true" id="8e35b9cd-763c-48c7-84cc-ab694dc60dad" name="Changes" comment="Add Upper und Lower Case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/passVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/passVal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/passValTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/passValTest.java" afterDir="false" />
@@ -63,6 +63,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="passValTest.IsonRedLisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="passValidierung" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="passValTest" />
+      <option name="METHOD_NAME" value="IsonRedLisTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="passValTest.passNumberIsNot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="passValidierung" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,6 +86,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in passValidierung" />
+        <item itemvalue="JUnit.passValTest.IsonRedLisTest" />
         <item itemvalue="JUnit.passValTest.passNumberIsNot" />
         <item itemvalue="JUnit.passValTest" />
       </list>
@@ -89,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662105817185</updated>
-      <workItem from="1662105819265" duration="16026000" />
+      <workItem from="1662105819265" duration="19934000" />
     </task>
     <task id="LOCAL-00001" summary="Add PassLength">
       <created>1662110635514</created>
@@ -105,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662124278277</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Upper und Lower Case">
+      <created>1662128239247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662128239248</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +143,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add PassLength" />
     <MESSAGE value="Add PassNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add PassNumber" />
+    <MESSAGE value="Add Upper und Lower Case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Upper und Lower Case" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/passVal.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
