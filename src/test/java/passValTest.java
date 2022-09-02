@@ -1,13 +1,13 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class passValTest {
 
     @Test
     void passwordLengthValid(){
 
-    //GIVEN
+    // GIVEN
     String passwordLength = "12345678";
     // WHEN
     String actual = passVal.lengthOfPass(passwordLength);
@@ -19,7 +19,7 @@ public class passValTest {
     @Test
     void passwordLengthUnvalid(){
 
-        //GIVEN
+        // GIVEN
         String passwordLength = "12345";
         // WHEN
         String actual = passVal.lengthOfPass(passwordLength);
@@ -29,4 +29,27 @@ public class passValTest {
 
 
 
+    @Test
+    void passNumberIs(){
 
+        // GIVEN
+        String passZahl = "0123456789";
+        // WHEN
+        Boolean actual = passVal.passNumber(passZahl);
+        // THEN
+        assertTrue(actual);
+        //assertEquals("true", actual);
+    }
+
+    @Test
+    void passNumberIsNot(){
+
+        // GIVEN
+        String passZahl = "";
+        // WHEN
+        Boolean actual = passVal.passNumber(passZahl);
+        // THEN
+        assertFalse(actual);
+        //assertEquals("true", actual);
+    }
+}

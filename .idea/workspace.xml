@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e35b9cd-763c-48c7-84cc-ab694dc60dad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/passVal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/passValTest.java" afterDir="false" />
+    <list default="true" id="8e35b9cd-763c-48c7-84cc-ab694dc60dad" name="Changes" comment="Add PassLength">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/passVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/passVal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/passValTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/passValTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.passValTest.passNumberIsNot">
     <configuration name="All in passValidierung" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="passValidierung" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,9 +54,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="passValTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="passValidierung" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="passValTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="passValTest.passNumberIsNot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="passValidierung" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="passValTest" />
+      <option name="METHOD_NAME" value="passNumberIsNot" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.passValTest.passNumberIsNot" />
         <item itemvalue="JUnit.All in passValidierung" />
+        <item itemvalue="JUnit.passValTest" />
       </list>
     </recent_temporary>
   </component>
@@ -73,8 +89,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662105817185</updated>
-      <workItem from="1662105819265" duration="4282000" />
+      <workItem from="1662105819265" duration="12008000" />
     </task>
+    <task id="LOCAL-00001" summary="Add PassLength">
+      <created>1662110635514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662110635514</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,5 +114,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add PassLength" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add PassLength" />
   </component>
 </project>
