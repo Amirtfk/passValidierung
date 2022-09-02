@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e35b9cd-763c-48c7-84cc-ab694dc60dad" name="Changes" comment="Add PassLength">
+    <list default="true" id="8e35b9cd-763c-48c7-84cc-ab694dc60dad" name="Changes" comment="Add PassNumber">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/passVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/passVal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/passValTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/passValTest.java" afterDir="false" />
@@ -45,7 +45,7 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.passValTest.passNumberIsNot">
+  <component name="RunManager" selected="JUnit.All in passValidierung">
     <configuration name="All in passValidierung" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="passValidierung" />
       <option name="PACKAGE_NAME" value="" />
@@ -75,8 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.passValTest.passNumberIsNot" />
         <item itemvalue="JUnit.All in passValidierung" />
+        <item itemvalue="JUnit.passValTest.passNumberIsNot" />
         <item itemvalue="JUnit.passValTest" />
       </list>
     </recent_temporary>
@@ -89,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662105817185</updated>
-      <workItem from="1662105819265" duration="12008000" />
+      <workItem from="1662105819265" duration="16026000" />
     </task>
     <task id="LOCAL-00001" summary="Add PassLength">
       <created>1662110635514</created>
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662110635514</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add PassNumber">
+      <created>1662124278277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662124278277</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add PassLength" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add PassLength" />
+    <MESSAGE value="Add PassNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add PassNumber" />
   </component>
 </project>

@@ -52,4 +52,27 @@ public class passValTest {
         assertFalse(actual);
         //assertEquals("true", actual);
     }
+
+
+    @Test
+    void IsLowercase(){
+
+        // GIVEN
+        String pass = "abc";
+        // WHEN
+        boolean actual = passVal.passLo(pass);
+        // THEN
+        assertTrue(actual);
+    }
+
+    @Test
+    void IsUppercase(){
+
+        // GIVEN
+        String pass = "ABC";
+        // WHEN
+        boolean actual = passVal.passUpp(pass);
+        // THEN
+        assertTrue(actual);
+    }
 }
